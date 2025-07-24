@@ -125,6 +125,7 @@ func main() {
 	r := echo.New()
 	r.Use(middleware.Logger())
 	r.Use(middleware.Recover())
+  
 	r.GET("/", GetIndexHandler)
 	r.GET("/health", GetHealthHandler)
 	r.POST("/:device/attendance/new", postAttendanceNewHandler)
