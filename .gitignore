@@ -31,12 +31,15 @@ go.work.sum
 # Editor/IDE
 #.idea/
 .vscode/
+
 # Virtual environment
 fr-venv/
 
 # Downloaded models and testing
 mediapipe_models/
 model_testing/
+training_data/
+testing_data/
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
@@ -81,7 +84,3 @@ go.work.sum
 
 # env file
 .env
-
-# Editor/IDE
-#.idea/
-.vscode/
